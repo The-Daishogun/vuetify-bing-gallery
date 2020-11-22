@@ -8,7 +8,6 @@
 <script>
 import Title from "./components/Title";
 import Gallery from "./components/Gallery";
-import Gallery from "./components/Gallery.vue";
 
 export default {
   name: "App",
