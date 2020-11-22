@@ -1,8 +1,8 @@
 <template>
   <v-app-bar app color="primary" flat>
-    <v-app-bar-title class="text-uppercase white--text">
+    <h1 class="text-uppercase white--text font-weight-light">
       Bing Image Gallery
-    </v-app-bar-title>
+    </h1>
   </v-app-bar>
 </template>
 
