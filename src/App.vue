@@ -1,9 +1,11 @@
 <template>
   <v-app>
     <Title />
-    <v-container>
-      <Gallery />
-    </v-container>
+    <v-main>
+      <v-container>
+        <Gallery />
+      </v-container>
+    </v-main>
   </v-app>
 </template>
 
