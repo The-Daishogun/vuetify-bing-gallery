@@ -3,6 +3,7 @@
     <Title />
     <v-main>
       <v-container>
+        <Jumbotron />
         <Gallery />
       </v-container>
     </v-main>
@@ -12,17 +13,17 @@
 <script>
 import Title from "./components/Title";
 import Gallery from "./components/Gallery";
+import Jumbotron from "./components/Jumbotron";
 
 export default {
   name: "App",
 
   components: {
     Title,
+    Jumbotron,
     Gallery,
   },
 
-  data: () => ({
-    //
-  }),
+  data: () => ({}),
 };
 </script>
