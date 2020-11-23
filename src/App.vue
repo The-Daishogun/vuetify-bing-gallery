@@ -3,8 +3,8 @@
     <Title />
     <v-main>
       <v-container>
-        <Jumbotron />
-        <Gallery />
+        <Jumbotron :url="`${imgurl}`" />
+        <Gallery v-on:img-url="sendToJumbotron" />
       </v-container>
     </v-main>
   </v-app>
@@ -24,6 +24,13 @@ export default {
     Gallery,
   },
 
-  data: () => ({}),
+  data: () => ({
+    imgurl: "",
+  }),
+  methods: {
+    sendToJumbotron(imgUrl) {
+      this.imgurl = imgUrl;
+    },
+  },
 };
 </script>
